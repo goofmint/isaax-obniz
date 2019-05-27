@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "",
   "language":"Node.js",
-  "license": "",
+  "license": "MIT",
   "scripts": {
      "start": "npm run start"
     }
