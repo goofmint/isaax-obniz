@@ -21,7 +21,6 @@ client.on('connect', function(connection) {
       for (const obj of json) {
         if (obj['switch'] && obj['switch']['state'] === 'push') {
           const result = execSync('cat /sys/class/thermal/thermal_zone0/temp').toString('utf-8');
-          console.log('result', result);
           const temp = parseInt(result.match(/([0-9]+)/, "$1")[1]);
           connection.sendUTF(JSON.stringify([
             {display:{clear:true}},
