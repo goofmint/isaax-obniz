@@ -1,7 +1,7 @@
 {
   "name": "node-app",
   "version": "",
-  "description": "python - raspberry-pi",
+  "description": "node.js - raspberry-pi",
   "main": "index.js",
   "author": "",
   "language":"Node.js",
